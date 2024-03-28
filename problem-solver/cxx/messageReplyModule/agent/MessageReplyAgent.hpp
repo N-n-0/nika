@@ -23,8 +23,6 @@ private:
 
   ScAddr generateNonAtomicActionArgsSet(ScAddr const & messageAddr);
 
-  ScAddr generateNonAtomicActionArgsSet(ScAddr const & messageAddr, ScAddr const & dialogAddr);
-
   ScAddr generateAnswer(ScAddr const & messageAddr);
 
   bool linkIsValid(ScAddr const & linkAddr);
